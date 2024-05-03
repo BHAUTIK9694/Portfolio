@@ -4,7 +4,7 @@ This is My Personal Portfolio.
 
 ## Installation
 
-There are only two steps to run this website:
+There are only few steps to run this website:
 
 1 . Install PHP : Download and install PHP from the official PHP website and installation instructions for your operating system.
 
