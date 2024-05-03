@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&family=Kanit:wght@200&family=Montserrat:wght@100;500&family=Raleway:wght@100&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&family=Kanit:wght@200&family=Montserrat:wght@100;200;500&family=Raleway:wght@100&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1d1a16;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/*  navbar */
+
+.nav {
+    margin: 0px 80px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav-header {
+    display: inline;
+}
+
+.nav .nav-header .nav-title {
+    display: inline-block;
+    font-size: 27px;
+    color: rgb(255, 189, 57);
+}
+
+
+
+.nav .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav .nav-links a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+
+
+.yellow {
+    color: rgb(255, 189, 57);
+}
+
+.white {
+    color: #fff;
+}
+
+/* */
+.my-detail {
+    margin: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-intro h1 {
+    font-size: 42px;
+}
+
+.my-intro p {
+    font-size: 20px;
+}
+
+form button {
+    width: 158px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 38px;
+    margin: 20px 0px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form_div {
+    display: flex;
+}
+
+.my-image img {
+    width: 470px;
+    height: 480px;
+    border-radius: 293px;
+}
+
+
+
+
+
+
+
+.education_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.education_detail {
+
+    width: 500px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    height: 200px;
+}
+
+.white {
+    color: #fff;
+    margin: 15px 0px;
+}
+
+.grey-p {
+    color: grey;
+    margin: 15px 0px;
+}
+
+.about,
+.overview {
+    margin: 0px 100px;
+}
+
+li::marker {
+    color: rgb(255, 189, 57);
+}
+
+ul {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+/* */
+.grid-container {
+    margin: 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 200px;
+
+}
+
+.grid-item {
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    width: 238px;
+    border-radius: 10px;
+    margin: 11px;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+}
+
+.grid-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.grid-item h1 {
+    margin-left: 52px;
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+}
+
+
+/* */
+@keyframes hideMe {
+    0% {
+        opacity: 1;
+    }
+
+    99.99% {
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+    }
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 200px;
+
+}
+
+.contact-info {
+    width: 50%;
+}
+
+.contact-info-item {
+    display: flex;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.contact-info-icon {
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.contact-info-icon i {
+    font-size: 30px;
+    line-height: 70px;
+    background-color: white;
+    border-radius: 21px
+}
+
+.contact-info-icon img {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 44px;
+}
+
+.contact-info-content {
+    margin-left: 20px;
+}
+
+.contact-info-content h4 {
+    color: grey;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.contact-info-content p {
+    color: #FFF;
+    font-size: 1em;
+}
+
+.contact-info-content p a {
+    color: rgb(117, 117, 210);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.linkdin {
+    color: blue;
+    font-size: 50px !important;
+}
+
+.github {
+    color: black;
+    font-size: 44px !important;
+
+}
+
+.contact {
+    color: green;
+}
+
+.google {
+    color: red;
+}
+
+hr {
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 189, 57);
+}

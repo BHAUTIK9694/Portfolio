@@ -1,0 +1,57 @@
+/* form design */
+.container-form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1d1a16;
+}
+
+label {
+    font-weight: bold;
+    color: #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 425px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 13px;
+    color: #fff;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #1d1a16;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-color: #fff;
+}
+
+
+
+hr {
+    margin: 30px !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+.error-p {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.yellow {
+    margin: 20px;
+}

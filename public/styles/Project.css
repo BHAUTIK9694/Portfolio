@@ -1,0 +1,202 @@
+.project-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    width: 15em;
+    padding: 1em;
+    height: 400px;
+    box-shadow: 0px 0px 3px 3px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 37px;
+    color: #fff;
+}
+
+.product-card img {
+    height: 215px;
+    max-width: 100%;
+}
+
+.product-card h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.flex-div h4 {
+    color: rgb(255, 189, 57);
+    font-size: 18px;
+
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 0px;
+}
+
+.product-card p {
+    font-size: 14px;
+    text-align: -webkit-left;
+    color: rgb(193, 193, 193);
+}
+
+.flex-div a {
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+}
+
+.project-title {
+    margin: 20px 0px;
+}
+
+#p1,
+#p2,
+#p3 {
+    color: #fff;
+}
+
+#p1 p {
+
+    text-transform: capitalize;
+    text-transform: capitalize;
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#p2 p {
+
+    text-transform: capitalize;
+    text-transform: capitalize;
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#p3 p {
+
+    text-transform: capitalize;
+    text-transform: capitalize;
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+
+/* slider */
+
+.slider {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 3px 3px #e1e1e1;
+    border-radius: 20px;
+}
+
+.slides1,
+.slides2,
+.slides {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 575px;
+}
+
+.slides1 {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide1 {
+    width: 100%;
+    flex-shrink: 0;
+    height: 575px;
+}
+
+.slides2 {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide2 {
+    width: 100%;
+    flex-shrink: 0;
+    height: 575px;
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+}
+
+.slide2 img {
+    width: 100%;
+    height: 500px;
+}
+
+.slide1 img {
+    width: 100%;
+    height: 500px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+hr {
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#p1 h1,
+#p2 h1,
+#p3 h1 {
+    margin: 20px;
+}
+
+.main-img {
+    width: 778px;
+    border-radius: 20px;
+    height: 471px;
+}
+
+.project-detail {
+    margin: 20px 100px;
+}
+
+label {
+    font-size: 20px;
+}
